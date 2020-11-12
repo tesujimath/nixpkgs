@@ -5247,6 +5247,10 @@ in
   nodejs-slim-12_x = callPackage ../development/web/nodejs/v12.nix {
     enableNpm = false;
   };
+  nodejs-12_8_1 = callPackage ../development/web/nodejs/v12.8.1.nix { };
+  nodejs-slim-12_8_1 = callPackage ../development/web/nodejs/v12.8.1.nix {
+    enableNpm = false;
+  };
   nodejs-14_x = callPackage ../development/web/nodejs/v14.nix { };
   nodejs-slim-14_x = callPackage ../development/web/nodejs/v14.nix {
     enableNpm = false;
