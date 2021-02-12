@@ -5693,6 +5693,10 @@ in
   nodejs-slim-14_x = callPackage ../development/web/nodejs/v14.nix {
     enableNpm = false;
   };
+  nodejs-14_15_4 = callPackage ../development/web/nodejs/v14.15.4.nix { };
+  nodejs-slim-14_15_4 = callPackage ../development/web/nodejs/v14.15.4.nix {
+    enableNpm = false;
+  };
   nodejs-15_x = callPackage ../development/web/nodejs/v15.nix { };
   nodejs-slim-15_x = callPackage ../development/web/nodejs/v15.nix {
     enableNpm = false;
