@@ -44,6 +44,7 @@ stdenv.mkDerivation (finalAttrs: {
   ];
 
   buildInputs = [
+    appres
     gdk-pixbuf
     gdk-pixbuf-xlib
     gettext
