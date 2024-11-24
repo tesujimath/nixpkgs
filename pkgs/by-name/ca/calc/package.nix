@@ -38,11 +38,11 @@ stdenv.mkDerivation (finalAttrs: {
 
   makeFlags = [
     "T=$(out)"
-    "INCDIR="
+    "INCDIR=/include"
     "BINDIR=/bin"
     "LIBDIR=/lib"
     "CALC_SHAREDIR=/share/calc"
-    "CALC_INCDIR=/include"
+    "CALC_INCDIR=/include/calc"
     "MANDIR=/share/man/man1"
 
     # Handle LDFLAGS defaults in calc
